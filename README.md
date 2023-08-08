@@ -7,7 +7,6 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
     - [Future Features](#future-features)
-- [🚀 Live Demo ](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -56,14 +55,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Comming soon ...
-<!-- - [Live Demo Link](https://kamberebr.github.io/math-magicians/dist/) -->
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
