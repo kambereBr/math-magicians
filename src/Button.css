@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   border: none;
-  border-right: var(--line-style);;
+  border-right: var(--line-style);
   border-top: var(--line-style);
   padding: 15px;
 }
@@ -37,7 +37,8 @@
   width: 100%;
 }
 
-.dot-button, .equal-button {
+.dot-button,
+.equal-button {
   width: 43.5% !important;
 }
 
