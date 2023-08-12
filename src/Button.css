@@ -12,6 +12,10 @@
   border-bottom: none;
 }
 
+h1 {
+  color: var(--primary-color);
+}
+
 .row {
   display: flex;
   width: 100%;
@@ -39,7 +43,7 @@
 
 .dot-button,
 .equal-button {
-  width: 43.5% !important;
+  width: 43% !important;
 }
 
 .gray-button {
