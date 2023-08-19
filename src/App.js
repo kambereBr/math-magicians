@@ -1,12 +1,10 @@
-import Calculator from './components/Calculator';
-import Quote from './components/Quote';
-import './Main.css';
+import NavBar from './components/NavBar';
+import './styles/Main.css';
 
 function App() {
   return (
     <div className="App">
-      <Calculator />
-      <Quote />
+      <NavBar />
     </div>
   );
 }
