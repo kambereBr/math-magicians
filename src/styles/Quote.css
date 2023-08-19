@@ -1,0 +1,14 @@
+.quote-section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.main-quote {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
