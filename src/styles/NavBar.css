@@ -1,0 +1,56 @@
+:root {
+  --secondary-color: #f4f4f4;
+  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  --gray-color: #6e6e75;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  border: 0 var(--secondary-color) solid;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: baseline;
+  box-shadow: var(--box-shadow);
+}
+
+.nav-bar span {
+  padding-left: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  padding-right: 20px;
+}
+
+ul > li {
+  list-style: none;
+  text-decoration: none;
+}
+
+ul > li:nth-child(2) {
+  border-left: 2px var(--gray-color) solid;
+  border-right: 2px var(--gray-color) solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    font-size: 2rem;
+  }
+}
