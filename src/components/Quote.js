@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../Quote.css';
+import '../styles/Quote.css';
 
 const Quote = () => {
   const [loading, setLoading] = useState(true);
@@ -34,17 +34,19 @@ const Quote = () => {
   }, []);
 
   if (loading) {
-    return <p>Loading ...</p>;
+    return <p className="main-quote">Loading ...</p>;
   }
 
   if (error) {
-    return <p>Oooops, Error fetching data</p>;
+    return <p className="main-quote">Oooops, Error fetching data</p>;
   }
 
   return (
-    <div className="quote-section">
-      <q>{quote.quote}</q>
-      <p><b>{quote.author}</b></p>
+    <div className="main-quote">
+      <div className="quote-section">
+        <q>{quote.quote}</q>
+        <p><b>{quote.author}</b></p>
+      </div>
     </div>
   );
 };
