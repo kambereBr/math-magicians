@@ -87,7 +87,7 @@ export default function calculate(obj, buttonName) {
     return {};
   }
 
-  // Button must be an operation
+  // Button must be an operation.
 
   // When the user presses an operation button without having entered
   // a number first, do nothing.
