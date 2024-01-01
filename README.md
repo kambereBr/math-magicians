@@ -119,13 +119,13 @@ npx eslint .
 
 Use at the end '--fix' to help you out with any error.
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Bruno Kambere**
 
 - GitHub: [@kambereBr](https://github.com/kambereBr)
 - Twitter: [@kambereBr](https://twitter.com/kambereBr)
-- LinkedIn: [bruno kambere](https://www.linkedin.com/in/bruno-kambere-399447138/)
+- LinkedIn: [bruno kambere](https://www.linkedin.com/in/bruno-kambere/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
